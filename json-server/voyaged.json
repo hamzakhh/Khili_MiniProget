@@ -1,0 +1,119 @@
+{
+  "Voyages": [
+    {
+      "id": 1,
+      "libelle": "Turkai/Istanbule",
+      "image": "assets/img1.jpg",
+      "prix": "1400",
+      "promotion": true,
+      "date": "17/08/2022"
+    },
+    {
+      "id": 2,
+      "libelle": "Italia/Roma",
+      "image": "assets/img2.jpg",
+      "prix": "1400",
+      "promotion": false,
+      "date": "17/07/2022"
+    },
+    {
+      "libelle": "Russia/Mossco",
+      "image": "assets/img3.jpg",
+      "prix": 1800,
+      "promotion": false,
+      "date": "10/06/2022",
+      "id": 3
+    },
+    {
+      "libelle": "Nerway",
+      "image": "assets/img4.jpg",
+      "prix": 2000,
+      "promotion": false,
+      "date": "10/01/2022",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "libelle": "Allmand/Stutgart",
+      "image": "assets/img5.jpg",
+      "prix": 1800,
+      "promontion": false,
+      "date": "17/05/2022"
+    },
+    {
+      "libelle": "France/Paris",
+      "image": "assets/img6.jpg",
+      "prix": 1200,
+      "promotion": true,
+      "date": "17/18/2022",
+      "id": 6
+    },
+    {
+      "libelle": "SWISS",
+      "image": "assets/img7.jpg",
+      "prix": 1200,
+      "promotion": true,
+      "date": "17/02/2022",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "libelle": "Mdride",
+      "image": "assets/img8.jpg",
+      "prix": 1600,
+      "promontion": false,
+      "date": "17/03/2022"
+    },
+    {
+      "libelle": "Dobai",
+      "image": "assets/img9.jpg",
+      "prix": 1500,
+      "promotion": false,
+      "date": "17/03/2022",
+      "id": 9
+    }
+  ],
+  "message": [
+    {
+      "id": 1,
+      "nom": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "id": 2,
+      "nom": "vdv",
+      "email": "dcd",
+      "message": "vdsvsd"
+    },
+    {
+      "id": 3,
+      "nom": "hamza",
+      "email": "med@gmail.com",
+      "message": " bbfdhgfbfgb"
+    },
+    {
+      "id": 4,
+      "nom": "bfd",
+      "email": "dbd",
+      "message": " df"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

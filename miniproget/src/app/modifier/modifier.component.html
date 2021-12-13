@@ -1,0 +1,33 @@
+<form [formGroup]="ModForm" (ngSubmit)="Onmodifier()" >
+         
+          
+    <label >libelle:</label>
+    <input type="email" class="form-control"  placeholder="Enter email" formControlName="libelle">
+
+
+      <label >image:</label>
+      <input type="email" class="form-control"  placeholder="Enter email" formControlName="image">
+   
+      <label >prix:</label>
+      <input type="email" class="form-control"  placeholder="Enter email" formControlName="prix">
+   
+    
+  
+        <input class="form-check-input" type="checkbox" formControlName="promotion">Promontion
+   
+  
+      <label >date:</label>
+      <input type="text" class="form-control"  placeholder="Enter email" formControlName="date">
+    
+  
+      
+
+<div class="modal-footer">
+<!--Butten avec Ulkit-->
+<input type="submit" value="Modifier" class="uk-button uk-button-primary">
+<button class="uk-button uk-button-danger"  routerLink='/ad' >Roture</button>
+
+
+</div>
+</form>
+

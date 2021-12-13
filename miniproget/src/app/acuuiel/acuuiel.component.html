@@ -1,0 +1,46 @@
+
+
+<!--Video-->
+<div class="video-header ">
+  <div class="fullscreen-video">
+    <video src="assets/vd.mp4"  autoplay loop></video>
+  </div>
+
+</div>
+
+<div class="header-overlay"> 
+  <div class="header-content">
+    <h2>Welcome to the world of travel</h2>
+    <button class="uk-button uk-button-danger"  routerLink='/cont' >Detaile</button>
+  </div>
+
+</div>
+<!--lesVoyageo-->
+
+<div class="uk-flex uk-flex-wrap uk-flex-wrap-around">
+  
+  <div class="card" style="width:300px;margin-top: 20px;"*ngFor="let t of tab"  >
+   
+    <img [src]="t.image" class="card-img-top" alt="Card image" style="width:400px">
+    <div class="card-body">
+      <h4 class="card-title">{{t.libelle}}</h4>
+      <h6>a partir de{{t.prix | number :'0.3'}}DT</h6>
+       <h5>{{t.date}}</h5>
+       <span  class="badge bg-success"><p class="card-title" *ngIf="t.promotion">Promotion</p></span>
+      <div class="card-footer">
+        <small class="text-muted" class="uk-text-center"><button type="button" class="btn btn-primary"  [routerLink]="['/voyage', t.id]" >Information</button></small>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <footer>
+    <p>Pour Contacte</p>
+    <div class="w3-bar w3-black w3-hide-small">
+   
+      
+     <a href="https://www.facebook.com/hamza.dragen/" target="_black"><i class="fa fa-facebook-official fa-fw w3-margin-right w3-large w3-text-teal"></i></a>
+     <a href="https://www.instagram.com/hamzakh223/" target="_black"><i class="fa fa-instagram  fa-fw w3-margin-right w3-large w3-text-teal"></i></a>
+     <a href="https://mail.google.com/mail/u/0/#inbox" target="_black"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i></a>
+  </div>
+  </footer>

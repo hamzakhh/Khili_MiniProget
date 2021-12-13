@@ -1,0 +1,26 @@
+<!--Gard avec Ulki-->
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-card-media-left uk-cover-container">
+        <img [src]="do.image">
+        <canvas width="400" height="200"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title"></h3>
+            <h2>{{do.libelle}}</h2>
+       
+      
+            <p>Prix:{{do.prix | number :'1.0'}}DT</p>
+            <p>a partie:{{do.date}}</p>
+            <span *ngFor="do.promotion">Promontion</span>
+          
+        </div>
+        <h3>  <strong>Important:</strong>  </h3>
+        <p>Tous les voyageurs passant par notre agence bénéficieront d'une remise de 20%</p>
+        <br>
+        <button class="uk-button uk-button-danger"  routerLink='/voyage' >Roture</button>
+    </div>
+
+
+</div>
+

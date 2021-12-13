@@ -1,0 +1,66 @@
+<section class="contact">
+<div class="content">
+    <h2>contacte </h2>
+   
+</div>
+<div class="container">
+    <div class="contactInfo">
+        <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+                <h3>Adresse</h3>
+                <p>Ariana--2080</p>
+            </div>
+
+        </div>
+        
+        <div class="box">    <!--icon avec bootstrap-->
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+                <h3>Phone</h3>
+                <p>+216 52494498</p><br>
+                <p>+216 22704551</p>
+            </div>
+
+        </div>
+         
+        <div class="box">
+        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="text">
+            <h3>Email</h3>
+            <p>khilihamza@gmail.com</p>
+       
+        </div>
+    </div>
+    </div>
+
+<!--Formilaire de Contacte-->
+    <div class="contacteForm">
+        <form [formGroup]="ContactForm" (ngSubmit)="EnvoyerMessage()">
+
+            <h4>Envoyaer Message</h4>
+            <div class="inputBox">
+            
+                <label for="floatingInput"> Prenome</label>
+                <input type="text" name="" class="form-control" id="floatingInput" formControlName="nom">
+          
+               
+            </div>
+            <div class="inputBox">
+                <label for="floatingInput">Email</label>
+                <input type="email" name="" class="form-control" id="floatingInput" formControlName="email" >
+             
+            </div>
+            <div class="inputBox">
+           <label for="floatingInput" > de message.....</label>
+                <textarea  formControlName="message"> </textarea>
+               
+            </div>
+          
+                <input type="submit"  value="Envoyer"  class="btn btn-success">
+                <input type="reset"  value="reste"  class="btn btn-dark">
+             
+        </form>
+    </div>
+</div>
+</section>

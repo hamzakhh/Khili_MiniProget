@@ -1,0 +1,30 @@
+
+<!--Formulaire login avec Ulkit-->
+<div class="uk-position-center uk-overlay uk-overlay-default">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                <input class="uk-input" type="email"  formControlName="email">
+            </div>
+        </div>
+    
+        <div class="uk-margin"> 
+            <div class="uk-inline">
+                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                <input class="uk-input" type="password"  formControlName="password">
+            </div>
+
+        </div>
+    
+            
+            
+                <input type="submit" value="Login" class="uk-button uk-button-primary" style="width: 100%;">
+           
+
+      
+    </form>    
+
+</div>
+

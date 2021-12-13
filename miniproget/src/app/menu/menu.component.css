@@ -1,0 +1,28 @@
+
+.navbar{
+    background-color: rgb(59, 59, 59);
+    border-radius:5px;
+}
+.navbar-brand{
+    color:white;
+    font-family: 'Petemoss';
+   font-size: 30px;
+ 
+   top: 0px;
+}
+.lienAct{
+color: black;
+}
+.nav-link{
+    color: white;
+   
+   
+}
+.fa-plane{
+
+color: azure;
+
+
+}
+
+
